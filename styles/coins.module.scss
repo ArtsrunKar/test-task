@@ -1,0 +1,49 @@
+.coins {
+	margin-top: 50px;
+	font-size: 20px;
+	display: flex;
+	.coinTotal {
+		margin-left: 80px;
+		.innerTotal {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 10px;
+			font-size: 17px;
+
+			.title {
+				margin-bottom: 3px;
+			}
+		}
+	}
+	.coinPreview {
+		display: flex;
+		.coinMainInfo {
+			margin-left: 15px;
+			.rank {
+				margin-left: 8px;
+				background-color: orange;
+				border-radius: 3px;
+				color: black;
+				padding: 3px;
+				font-size: 16px;
+			}
+			.price {
+				margin-top: 20px;
+				font-size: 30px;
+			}
+		}
+	}
+	.coinsImg {
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		flex-direction: column;
+		img {
+			width: 2.10526rem;
+			height: 2.10526rem;
+		}
+	}
+	.coinColor {
+		color: white;
+	}
+}

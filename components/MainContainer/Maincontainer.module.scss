@@ -1,0 +1,16 @@
+.mainContainer {
+	// margin: 0 auto;
+	// padding: 20px 180px 100px;
+	.inner {
+		text-align: center;
+	}
+	.pages {
+		margin-left: 111px;
+		margin-top: 50px;
+		display: flex;
+		color: rgba(215, 211, 206, 0.8);
+		& > a:not(:first-child) {
+			margin-left: 20px;
+		}
+	}
+}
