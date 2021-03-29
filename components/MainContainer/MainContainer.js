@@ -32,7 +32,7 @@ const MainContainer = ({ children, keywords }) => {
 	);
 };
 MainContainer.propTypes = {
-	children: PropTypes.elementType.isRequired,
+	children: PropTypes.element.isRequired,
 	keywords: PropTypes.string,
 };
 

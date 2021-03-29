@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import CoinsTable from '../components/CoinsTable/CoinsTable';
 
 const Index = ({ coins: { coins } }) => {
-	console.log('Index ~ coins', coins);
 	return <CoinsTable coins={coins} />;
 };
 
